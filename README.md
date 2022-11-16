@@ -72,6 +72,37 @@ sns.heatmap(df.corr(),annot=True)
 <img width="289" alt="image" src="https://user-images.githubusercontent.com/94185707/202079105-2316e98c-3d68-4631-bd64-37290be8fe5d.png">
 
 
+### data visualization
+
+### POINTPLOT
+
+sns.pointplot(x=df['totaldeaths'],y=df['newdeaths'])
+
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/94185707/202079932-e3370781-9686-449b-b494-d4084e7b6587.png">
+
+### LINEPLOT
+
+sns.lineplot(x=df['totalcases'],y=df['active cases'])
+
+<img width="273" alt="image" src="https://user-images.githubusercontent.com/94185707/202080037-d205b110-84e8-4871-b4c8-b1051101d661.png">
+
+### COUNTPLOT
+
+sns.countplot(x=df['totaldeaths'])
+
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/94185707/202080164-1bc9dd9d-53a1-435b-adf5-376dd7cfac20.png">
+
+### HISTPLOT
+
+sns.histplot(x=df['totaldeaths'],data=df)
+
+<img width="304" alt="image" src="https://user-images.githubusercontent.com/94185707/202080208-eece1b98-22b1-477a-9641-d2738a98f9ba.png">
+
+### KDE PLOT
+
+sns.kdeplot(x=df['newdeaths'],data=df)
+
+<img width="293" alt="image" src="https://user-images.githubusercontent.com/94185707/202080259-31bdf3ca-16b6-4886-abf3-fdf761676a29.png">
 
 
 
