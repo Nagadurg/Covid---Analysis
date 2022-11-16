@@ -43,6 +43,8 @@ sns.countplot(y="newdeaths",data=df)
 
 <img width="285" alt="image" src="https://user-images.githubusercontent.com/94185707/202078539-ff425826-9200-4953-9013-7960b9959fef.png">
 
+### HISTPLOT
+
 sns.histplot(y="newdeaths",data=df)
 
 <img width="281" alt="image" src="https://user-images.githubusercontent.com/94185707/202078613-386f1f1d-ada5-42c9-b124-db70a59219cf.png">
